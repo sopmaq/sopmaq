@@ -1,0 +1,699 @@
+/* 
+ * Site globals
+ */
+ 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto; 
+    height: 100%;
+} 
+
+/*
+ * 
+ * Typography
+ *
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    color: #444;
+}
+
+body {
+    background-color: snow;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+}
+
+.p-secondary {
+    color: silver;
+}
+
+.writeup-row-main .p-secondary {
+    color: silver;
+}
+
+/*
+ *
+ *
+ * Local CSS for Index page
+ * 
+ * 
+ */
+
+/* 
+ * Fixed Left Navigation 
+ */
+
+.navbar-fixed-left {
+    position: fixed; 
+    height: 100%;
+    width: 50%; 
+    border-radius: 0px;
+    padding: 0px; 
+    margin: 0px; 
+}
+
+#left-nav {
+    background-color: #1CB5B3;
+    border: none;
+}
+
+#left-nav-xs {
+    background-color: #1CB5B3; 
+    height: 53%;
+}
+
+/*
+ * Left Column content
+ */
+
+#big-name {
+    padding-top: 30%;
+}
+
+#emoji {
+    width: 40px;
+}
+
+#emoji-xs {
+    width: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+
+
+#big-name-below {
+    position: relative;
+    height: 5em;
+    width: 100%; 
+    padding-top: 7px;
+    font-size: 18px;
+    color: #303030;
+}
+
+#big-name-below-xs {
+    position: relative;
+    height: 4em;
+    width: 250px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: #303030;    
+}
+
+#big-name-text {
+    font-size: 60px;
+    color: #74D5CF;
+}
+
+#big-name-text-xs {
+    padding-top: 5px;
+    color: #74D5CF;
+}
+
+#left-links-list {
+    margin-top: 30px;
+}
+
+#left-links-list-xs {
+    margin-top: 0px;
+}
+#left-links-list a:link,
+#left-links-list-xs a:link{
+    color: #017372;
+}
+
+#left-links-list a:visited,
+#left-links-list-xs a:visited {
+    color: #017372;
+    
+}
+
+#left-links-list a:hover,
+#left-links-list-xs a:hover {
+    background-color: #74D5CF;
+    
+}
+
+#left-links-list a:active,
+#left-links-list-xs a:active {
+    background-color: #74D5CF;
+}
+
+#resume-download-link:link {
+    color: #444;
+}
+
+#resume-download-link:visited {
+    color: #444;
+}
+
+
+
+/* 
+ * Right Column - Images 
+ */
+
+.right-image {
+    padding: 0; 
+}
+
+/* 
+ * Right Column - Text 
+ */
+
+.right-copy {
+    padding: 60px;
+}
+
+/* 
+ * Section - Contact
+ */
+
+#row-four {
+    background-color: #74D5CF;
+}
+
+#row-three-b {
+    background-color: whitesmoke;
+}
+
+.table-courses {
+    font-family: 'Karla', sans-serif;
+}
+
+
+/*
+ * Section - Work
+ */
+
+.work-link {
+    padding-bottom: 5px;
+}
+
+.work-title {
+    margin-bottom: 5px;
+}
+
+.work-title a:link {
+    color: #505050;
+    text-decoration: none;
+}
+
+.work-title a:visited {
+    color: #505050;
+    text-decoration: none; 
+}
+
+.work-title a:hover {  
+    border-bottom: 2.5px solid #FFBD36;
+    border-radius: 1px;
+    position: relative;
+    padding-bottom: -5px;
+}
+
+.work-title a:active {
+    color: #505050;
+    text-decoration: none;
+}
+/* 
+ * Section - Education 
+ */
+
+.award {
+    margin-bottom: 10px;
+}
+
+#education h3{
+    color: #505050;
+}
+
+.education-section {
+    padding-bottom: 5px;
+}
+
+.des-skill {
+    text-decoration: none;
+    border-bottom: 2px solid #FF7272;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cs-skill {
+    text-decoration: none;
+    border-bottom: 2px solid #FFBD36;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bus-skill {
+    text-decoration: none;
+    border-bottom: 2px solid #74D5CF;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bus-skill-list {
+    line-height: 2.5em;
+}
+#education-section-skills {
+
+}
+/*
+ * Section - Experience 
+ */
+
+#work-experience-header {
+    padding-bottom: 5px;
+}
+
+#work-subhead {
+    padding-bottom: 5px;
+}
+
+.work-position {
+    background: #74D5CF;
+    
+}
+
+.work-date {
+    color: silver;
+}
+
+
+.work-description a:link {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 2px solid #74D5CF;
+    border-radius: 1.5px;
+}
+
+.work-description a:visited {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 2px solid #74D5CF;
+    border-radius: 1.5px;
+}
+
+.work-description a:hover {
+    border-bottom: 2px solid silver;
+    border-radius: 1.5px;
+
+    
+}
+
+.work-description a:active {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 2px solid silver;
+    border-radius: 1.5px;
+}
+
+#resume {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+/*
+ * Section - Footer 
+ */ 
+
+#footer-container {
+    background-color:#E0E0E0;
+
+}
+footer {
+    margin: 5px;
+}
+
+#footer-row {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.footer-link:link {
+    color: #444;
+    text-decoration: none;
+}
+
+.footer-link:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: silver;
+}
+
+.footer-link:active {
+    color: silver;
+}
+
+mark {
+    background: #FFF2D7;
+}
+
+
+.mark-email {
+    background-color: #D5FDFB;
+}
+
+
+
+/* 
+ * 
+ * Section - Download Resume
+ * 
+ */
+#resume-download-link:hover {
+    text-decoration: none;
+    content: attr(resume-arrow);
+    border-bottom: 2px solid orange;
+}
+
+
+#resume-download-link:active {
+    
+}
+
+/* 
+ *
+ * Section - Let's get in touch 
+ */
+
+#contact-link:link{
+    color: #444;
+    background-color: #D5FDFB;
+    padding-left: 4px;
+    margin-left: 3px;
+    padding-right: 4px;
+    line-height: 2;
+}
+
+#contact-link:visited{
+    color: #444;
+}
+
+#contact-link:hover {
+    background-color: #74D5CF;
+}
+
+#contact-link:active{
+     background-color: #74D5CF;
+}
+
+/*
+ *
+ *
+ * Global CSS for write-up pages 
+ * 
+ * 
+ */
+
+/* 
+ * Write-up - navbar
+ * 
+ */
+
+.writeup-row-main nav{
+    padding-left: 10%;
+}
+
+.navbar-default {
+  background-color: #1CB5B3;
+  border-color: #1CB5B3;
+  border-radius: 0;
+}
+
+
+#go-back {
+    color: #74D5CF;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+
+#background-info {
+    background-color: whitesmoke;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.label-bar {
+    line-height: 2;
+}
+
+/*
+ * Write-up - main
+ * 
+ */
+
+#header {
+    color: whitesmoke
+}
+.writeup-row-main p {
+    color: #555;
+}
+
+.writeup-row-main img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.writeup-row-main a:link {
+    color: #F4AA12;
+}
+
+.writeup-row-main a:visited {
+    color: #F4AA12;
+}
+
+.writeup-row-main a:hover {
+    text-decoration: none;
+    color: #444;
+}
+
+.writeup-row-main a:active {
+}
+
+.writeup-row-main h3 {
+    padding-top: 15px;
+    color: #444;
+}
+
+.writeup-row-main h2, 
+.writeup-row-main h1 {
+    color: #444;
+}
+
+.lead {
+    color: silver;
+}
+
+
+
+/*
+ * 
+ * Buttons
+ * .btn-default: gray 
+ * .btn-primary: teal
+ * 
+ */
+
+.btn-default,
+btn-default:visited {
+    background-color: gainsboro;
+    border-color: gainsboro;
+}
+
+
+.btn-default:hover, 
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-defalt:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus
+{
+    background-color: silver;
+    border-color: silver;
+}
+
+.btn-default p {
+    padding-bottom: 0px;
+}
+
+.btn-default {
+    padding-bottom: 0px;
+}
+
+.btn-more {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-primary,
+btn-primary:visited {
+    background-color: #1CB5B3;
+    border-color: #1CB5B3;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus
+{
+    background-color: #74D5CF;
+    border-color: #74D5CF;
+}
+
+.btn-primary p {
+    padding-top: 5px;
+    color: snow;
+
+}
+
+/*
+ * Write-up - table
+ * 
+ */
+
+.writeup-table {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.label-default {
+    background-color: #1CB5B3;
+    font-size: 12px;
+    margin-right: 2px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.label-primary {
+    background-color: grey;
+    font-size: 12px;
+    margin-right: 2px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+/*
+ * Write-up - team
+ * 
+ */
+
+.img-team {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.img-team:hover {
+    opacity: 0.5;
+}
+
+.border-right {
+    border-right: 1px solid gainsboro;
+}
+
+.my-role {
+    height: 300px;
+    margin-bottom: 50px;
+    line-height: 1;
+}
+
+#madeleine {
+    padding-left: 25px;
+}
+
+#lillian {
+    padding-left: 18px;
+}
+
+#charlie {
+    padding-left: 15px;
+}
+
+/*
+ *
+ *
+ * Local CSS for write-up pages 
+ * 
+ * 
+ */
+
+/*
+ * 
+ * Manator/Manatee page
+ * 
+ */
+
+.wkst {
+    margin-bottom: 20px;
+}
+
+
+/*
+ * 
+ * Misc page
+ * 
+ */
+
+.misc-thumbnail {
+    padding: 20px;
+}
+
+
+/*
+ * 
+ * CM Workflow
+ * 
+ */
+
+#org-chart {
+    width: 60%;
+}
