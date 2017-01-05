@@ -1,2 +1,4 @@
 # sopmaq
-Portfolio website!
+My first portfolio website!
+
+Work in progress.
