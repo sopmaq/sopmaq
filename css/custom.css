@@ -97,7 +97,7 @@ a:active {
  */
 
 #big-name {
-    padding-top: 30%;
+    padding-top: 40%;
 }
 
 #emoji {
@@ -146,10 +146,12 @@ a:active {
 
 #left-links-list-xs {
     margin-top: 0px;
+    
 }
 #left-links-list a:link,
 #left-links-list-xs a:link{
     color: #017372;
+    transition: color 1s;
 }
 
 #left-links-list a:visited,
@@ -160,7 +162,8 @@ a:active {
 
 #left-links-list a:hover,
 #left-links-list-xs a:hover {
-    background-color: #74D5CF;
+    /*background-color: #74D5CF;*/
+    color: #74D5CF;
     
 }
 
@@ -235,7 +238,7 @@ a:active {
 }
 
 .work-title a:hover {  
-    border-bottom: 2.5px solid #FFBD36;
+   border-bottom: 2.5px solid #FFBD36;
     border-radius: 1px;
     position: relative;
     padding-bottom: -5px;
@@ -311,10 +314,11 @@ a:active {
 
 
 .work-description a:link {
-    text-decoration: none;
+    /*text-decoration: none;
     color: #444;
     border-bottom: 2px solid #74D5CF;
-    border-radius: 1.5px;
+    border-radius: 1.5px;*/
+    color: silver;
 }
 
 .work-description a:visited {
@@ -325,10 +329,14 @@ a:active {
 }
 
 .work-description a:hover {
-    border-bottom: 2px solid silver;
-    border-radius: 1.5px;
-
-    
+    /*border-bottom: 2px solid silver;
+    border-radius: 1.5px;*/
+    color: #444;
+    -o-transition: color .5s;
+    -ms-transition: color .5s;
+    -moz-transition: color .5s;
+    -webkit-transition: color .5s;
+    transition: color .5s;
 }
 
 .work-description a:active {
